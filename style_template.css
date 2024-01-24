@@ -1,0 +1,58 @@
+.main{
+    height:90vh;
+    width:96%;
+     border:5px solid skyblue; 
+    display: flex;
+    flex-direction: column;
+     align-items: center; 
+}
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 900;
+}
+h2{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 900;
+}
+p{
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.div{
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid black; */
+    align-items: center;
+    width:50%;
+    height: 40%;
+    color: maroon;
+}
+.navbar{
+    width:100%;
+    height:10%;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 2rem;
+    color: goldenrod;
+}
+.body{
+    height: 60%;
+    width:96%;
+    /* border:2px solid black; */
+    background-image: url("https://cdn.pixabay.com/photo/2014/02/27/16/10/flowers-276014_1280.jpg");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.lorem{
+    font-size: 1.5rem;
+    width:30%;
+    height:60%;
+    /* border: 2px solid black; */
+    color: blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

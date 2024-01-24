@@ -1,0 +1,323 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar{
+    height: 12vh;
+    width:100%;
+   border-bottom:2px solid gray  ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+#logo{
+    height:50%;
+    width:4%;
+    /* border-radius: 3px; */
+     margin-left: 4%;
+    background-image: url("https://www.starbucks.in/assets/icon/logo.png");
+    background-size: cover;
+}
+.logo{
+    height:80px;
+    width:80px;
+    /* border-radius: 3px; */
+     margin-left: 4%;
+    background-image: url("https://www.starbucks.in/assets/icon/logo.png");
+    background-size: cover;
+}
+.input{
+    height: 40%;
+    width:20%;
+    /* border:2px solid black; */
+    display:flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+#specific{
+    padding-left: 4%;
+    width:100%;
+    border-radius: 25px;
+    height:80%;
+}
+.searchopt{
+    margin-left: -10%;
+}
+.navbar2{
+    height: 12vh;
+    width:100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1e3932;
+    padding-left: 3%;
+   
+}
+.text{
+    color:white;
+    font-size: 1.5rem;
+    padding-right: 30%;
+}
+.text2{
+    color:white;
+    height:40%;
+    width:7%;
+    border:2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.maincontainer{
+    height: 50vh;
+    width:100%;
+     /* border:2px solid blue; */
+}
+.text1{
+    font-size: 1.5rem;
+    padding-left:7%;
+    padding-top: 1%;
+    color: rgb(2, 71, 2) ;
+    font-weight: 900;
+    /* border:2px solid black; */
+}
+.box{
+    width:100%;
+    height: 40vh;
+     /* border:2px solid black; */
+     margin-left: 0.50%;
+     display: flex;
+     justify-content:space-evenly;
+     align-items: center;
+}
+.circle1{
+    height:18vh;
+    width:9vw;
+     /* border:2px solid black;  */
+    border-radius: 50% 50% 50% 50% ;
+    background-image:url("./Bestseller.jpg");
+    background-size: cover;
+}
+.circle2{
+    height:18vh;
+    width:9vw;
+     /* border:2px solid black;  */
+    border-radius: 50% 50% 50% 50% ;
+    background-image:url("./Drinks.jpg");
+    background-size: cover;
+}
+.circle3{
+    height:18vh;
+    width:9vw;
+     /* border:2px solid black;  */
+    border-radius: 50% 50% 50% 50% ;
+    background-image:url("./Food.jpg");
+    background-size: cover;
+}
+.circle4{
+    height:18vh;
+    width:9vw;
+     /* border:2px solid black;  */
+    border-radius: 50% 50% 50% 50% ;
+    background-image:url("./Merchandise.jpg");
+    background-size: cover;
+}
+.circle5{
+    height:18vh;
+    width:9vw;
+     /* border:2px solid black;  */
+    border-radius: 50% 50% 50% 50% ;
+    background-image:url("./CoffeeAtHome.jpg");
+    background-size: cover;
+}
+.cover1{
+    height: 22vh;
+    width:10vw;
+    /* border:2px solid black; */
+}
+.para{
+    margin-left: 15%;
+}
+.image{
+    margin-top: 5%;
+    margin-left: 7%;
+    height: 30vh;
+    width:82vw;   
+}
+.pamp{
+   
+    width:100%;
+    height: 60vh;
+    /* border:2px solid black; */
+    display: flex;
+    flex-direction: column;
+  
+}
+.offer{
+    margin-top: 1.5%;
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: #1e3932;
+    margin-left: 6%; 
+    /* border:2px solid black; */
+}
+.pamplet{
+    height: 50vh;
+    width:100vw;
+      /* border:2px solid black;   */
+    /* margin-top: 3%; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.pamp1{
+    height: 30vh;
+    width:20vw;
+         background-image: url("./Bestseller.jpg");
+         background-size: cover;
+         
+         box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.pamp2{
+       height: 30vh;
+       width:20vw;
+         background-image: url("./Merchandise.jpg");
+         background-size: cover;
+         box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.pamp3{
+    height: 30vh;
+    width:20vw;
+    background-image: url("./Food.jpg");
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.pampcover1{
+    height: 40vh;
+    width:22vw;
+     /* border:2px solid black;   */
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: wheat;
+}
+.pampcover2{
+    height: 40vh;
+    width:22vw;
+    /* border:2px solid black;  */
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: wheat;
+}
+.pampcover3{
+    height: 40vh;
+    width:22vw;
+    /* border:2px solid black;  */
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: wheat;
+}
+.box4{
+     /* border:2px solid black;  */
+    height: 50vh;
+    width:100%;
+    background-color: #edebe9;
+}
+.text2{
+    width:15vw;
+    height: auto;
+    font-size: 1.4rem;
+    margin-left: 6%;
+    margin-top: 2%;
+}
+.borderbox{
+    margin-top: 2%;
+   height:20vh;
+   width:60vw;
+    /* border:2px solid black; */
+    margin-left: 6%;
+    display: flex;
+    /* flex-direction: column; */
+}
+.border-box1{
+    height: 25vh;
+    width:20vw;
+    background-color: white;
+    display: flex;
+    padding-top: 1%;
+    padding-left: 2%;
+    color: #1E3932;
+    font-size: 1rem;
+    flex-direction:column ;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.border-box2{
+    height: 25vh;
+    width:20vw;
+    background-color: white;
+    display: flex;
+    padding-top: 1%;
+    padding-left: 2%;
+    color: #1E3932;
+    font-size: 1rem;
+    flex-direction:column ;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    margin-left: 5%;
+}
+.box-two{
+    display: flex;
+    flex-direction: column;
+    padding-left: 2%;
+    /* border:2px solid black; */
+}
+#para1{
+    margin-left: 1.5%;
+    font-size: 1rem;
+   
+}
+p{
+    font-size: 0.69rem;
+}
+.str{
+    display: flex;
+
+}
+.lastpart{
+    height: 80vh;
+    width:100%;
+     background-color: #0e382c;
+     display: flex;
+     justify-content: space-around;
+      padding-top: 10%;
+}
+.table1{
+    display: flex;
+    flex-direction: column;
+    color: #edebe9;
+}
+.ab{
+    color: #edebe9;
+    font-size: 1.3rem;
+}
+.ou{
+    color: #edebe9;
+    font-size: 1rem;
+}
+.social{
+    color: #edebe9;
+    font-size: 1rem;
+}
+.social-logo{
+      margin-top: 3%;
+      display: flex;
+      justify-content: space-evenly;
+}
+
+
+

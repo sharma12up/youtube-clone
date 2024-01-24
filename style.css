@@ -1,0 +1,253 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.navbar{
+      /* border:2px solid black;   */
+    width:100%;
+    height: 10vh;
+    display: flex;
+}
+#menu{
+     padding: 2%;
+     margin-bottom: 6%;
+}
+.logo{
+    margin-right: 10%;
+}
+.search{
+    padding-left:4%;
+     padding-top: 1%;
+    padding-bottom:3%;
+    display: flex; 
+    height:10%;
+    width:90%;
+    /* border:2px solid black; */
+}
+#search{
+        width:120%;
+        height: 500%; 
+        padding-left:1%;  
+        border-top-left-radius:30px;
+        border-bottom-left-radius:30px;
+}
+.search-icon{
+    width:15%;
+    height: 500%;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    border-top-right-radius:30px;
+    border-bottom-right-radius:30px;
+    border:2px solid lightblue;
+    background-color:whitesmoke;
+}
+.mic{
+      height: 500%;
+      width:10%;
+      display: flex;
+      align-items: center;
+      justify-content: center; 
+      background-color:whitesmoke; 
+      border-radius: 40%; 
+      margin-left: 2%;
+}
+#signin{
+    height: 90%;
+    width:40%;
+    /* border:2px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sign{
+    color:skyblue;
+}
+.part2{
+    height: 85vh;
+    width:100%;
+    /* border:2px solid black; */
+    display:flex;
+}
+.sidebar{
+    margin-top: 0.89%;
+    height:80vh;
+    width:14%;
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    /* border:2px solid black; */
+    margin-left: 0.56%;
+}
+#home{
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 3%;
+    padding-right: 30%; 
+}
+#podcast{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 3%;
+    padding-right: 30%;  
+    margin-top: 10%;
+}
+#library{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 3%;
+    padding-right: 30%;  
+    margin-top: 10%;
+}
+#history{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 3%;
+    padding-right: 30%;  
+    margin-top: 10%;
+}
+.video{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 3%;
+    padding-right: 30%;  
+    margin-top: 10%;
+}
+.liked{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 3%;
+    padding-right: 30%;  
+    margin-top: 10%;
+}
+#subcription{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 3%;
+    padding-right: 10%;  
+    margin-top: 10%;
+}
+.bell{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 3%;
+    padding-right: 30%;  
+    margin-top: 10%;
+}
+.more{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 3%;
+    padding-right: 30%;  
+    margin-top: 10%;
+}
+.location{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 3%;
+    padding-right: 30%;  
+    margin-top: 10%;
+}
+/* .temp{
+    display:flex;
+    flex-direction: column;
+}
+.information{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.box{
+    height: 4%;
+    width:6%;
+    background-color: gray;
+    border-radius: 2px;
+    margin-bottom: 2px;
+     display: flex;
+     justify-content: space-evenly;
+     align-items: center;
+} */
+.side2{
+    margin-top: 5%;
+    margin-left: 1%;
+    height: 80vh;
+    width:82vw;
+    /* border:2px solid black;  */
+    margin-top: 0.89%;
+     display: flex;
+     flex-wrap: wrap;
+}
+.temp{
+    border:2px solid blue;
+    height: 80vh;
+    width:100vw;
+}
+#video1{
+    margin-top: 2%;
+    height: 40%;
+    width:30%;
+    /* border:2px solid black; */
+    margin-left: 2%;
+}
+#para{
+   padding-left: 30%;
+}
+#video2{
+      margin-top: 2%;
+    height: 40%;
+    width:30%;
+    /* border:2px solid black; */
+    margin-left: 2%;
+}
+#para1{
+    padding-left: 30%;
+}
+#video3{
+    margin-top: 2%;
+  height: 40%;
+  width:30%;
+  /* border:2px solid black; */
+  margin-left: 2%;
+}
+#para2{
+  padding-left: 30%;
+}
+
+#video4{
+    margin-top: 2%;
+    height: 40%;
+    width:30%;
+    /* border:2px solid black; */
+    margin-left: 2%;
+}
+#para3{
+   padding-left: 30%;
+}
+#video5{
+      margin-top: 2%;
+    height: 40%;
+    width:30%;
+    /* border:2px solid black; */
+    margin-left: 2%;
+}
+#para4{
+    padding-left: 30%;
+}
+#video6{
+    margin-top: 2%;
+  height: 40%;
+  width:30%;
+  /* border:2px solid black; */
+  margin-left: 2%;
+}
+#para5{
+  padding-left: 30%;
+}
+
+
+
+
+
+
+
